@@ -117,7 +117,7 @@ export const SearchSection: React.FC<SearchSectionProps> = ({ students, onResult
                   <>
                     <div className="w-6 h-6 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
                     جاري البحث...
-                  </>
+                  <ResultCard result={searchResult} />
                 ) : (
                   <>
                     <Search className="w-6 h-6" />

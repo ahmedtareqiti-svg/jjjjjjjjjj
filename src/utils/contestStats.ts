@@ -29,8 +29,6 @@ export const getCategoryColor = (category: string): string => {
 };
 
 export const getGradeColor = (grade: number): string => {
-  if (grade >= 95) return "text-green-600 bg-green-50";
-  if (grade >= 85) return "text-blue-600 bg-blue-50";
-  if (grade >= 75) return "text-yellow-600 bg-yellow-50";
-  return "text-red-600 bg-red-50";
+  if (grade >= 90) return "text-green-600 bg-green-100 border-2 border-green-300";
+  return "text-red-600 bg-red-100 border-2 border-red-300";
 };

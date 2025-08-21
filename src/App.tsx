@@ -168,7 +168,7 @@ function App() {
                   <div className="container mx-auto px-4">
                     <div className="max-w-2xl mx-auto">
                       {searchResult ? (
-                        <ResultCard student={searchResult} />
+                        <ResultCard result={searchResult} />
                       ) : (
                         <div
                           className={`border-2 rounded-3xl p-8 shadow-2xl relative overflow-hidden transition-colors duration-300 ${
